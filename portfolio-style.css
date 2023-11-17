@@ -1,0 +1,155 @@
+
+
+
+
+
+
+*{
+    margin: 20px;
+}
+
+header {
+    background-color: #fff; 
+    color: #2b2828; 
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}  
+
+
+
+.case {
+    width: 1450px;
+    height: 350px;
+    border: 5px solid black;
+}
+
+
+
+.moving-text {
+     font-size: 20px;
+    animation: moveLeftRight 35s infinite linear;
+    margin-bottom: 10px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+@keyframes moveLeftRight {
+    100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100%);
+    }
+    0% {
+        transform: translateX(0);
+    }
+}
+
+.grille {
+    border: 2px solid black;
+    height: 100px;
+    width: 500px;
+    background-image:linear-gradient(rgba(54, 48, 48, 0.3), rgba(40, 40, 30, 0.3)),  url(img-grillage.jpg);
+    background-repeat: no-repeat;
+}
+
+.grille-2 {
+    border: 2px solid black;
+    height: 400px;
+    width: 650px;
+    position: relative;
+    top: -5px;
+    background-image: linear-gradient(rgba(54, 48, 48, 0.3), rgba(40, 40, 30, 0.3)), url(img-grillage.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+#present  {
+    width: 750px;
+    height: 450px;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    border: 5px solid black;
+    background: rgba( 255, 255, 255, 1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    z-index: 1;
+
+}
+
+#ilust {
+    border: 5px solid black;
+    position: absolute;
+    background-color: #F7A072;
+    top: 50px;
+    left: 700px;
+    width: 750px;
+    height: 500px;
+    left: 660px;
+
+
+}
+
+#amp{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    right: 120px;
+    
+}
+
+#dess{
+    width: 280px;
+    height: 300px;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+}
+
+#éduc {
+    width: 1450px;
+    height: 350px;
+    border: 5px solid black;
+    position: relative;
+    top: -80px;
+    background-color: #C1EDCC;
+    -moz-transform: rotate(3deg) translate(0px, 80px);
+    -webkit-transform: rotate(3deg) translate(0px, 80px);
+    -o-transform: rotate(3deg) translate(0px, 80px);
+    -ms-transform: rotate(3deg) translate(0px, 80px);
+    transform: rotate(3deg) translate(0px, 80px);
+
+    
+    
+}
+
+#para {
+    position: relative;
+    top: -300px;
+}
+
+#present p{
+    font-size: 30px;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+#present h1{
+    font-size: 50px;
+    font-family: 'Asap Condensed', sans-serif;
+
+    
+}
+
+ul{
+    font-size: 30px;
+    font-family: 'Asap Condensed', sans-serif;
+
+}
+
+
+
+
